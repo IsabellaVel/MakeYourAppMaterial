@@ -81,10 +81,7 @@
 
         </LinearLayout>
 
-
-
-
-    </com.example.xyzreader.ui.ObservableScrollView>
+  </com.example.xyzreader.ui.ObservableScrollView>
 
     <com.example.xyzreader.ui.MaxWidthLinearLayout
         android:id="@+id/reading_pane"
@@ -96,8 +93,7 @@
         android:maxWidth="@dimen/detail_card_max_width"
         android:orientation="vertical">
 
-
-    </com.example.xyzreader.ui.MaxWidthLinearLayout>
+ </com.example.xyzreader.ui.MaxWidthLinearLayout>
 
     <ImageButton
         android:id="@+id/share_fab"
