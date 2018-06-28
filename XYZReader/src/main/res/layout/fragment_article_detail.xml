@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:elevation="@dimen/appbar_elevation"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        >
+        tools:targetApi="lollipop">
 
         <android.support.design.widget.CollapsingToolbarLayout
             android:id="@+id/collapse_toolbar"
@@ -100,7 +100,7 @@
 
     </com.example.xyzreader.ui.MaxWidthLinearLayout>
 
-    <ImageButton
+    <android.support.design.widget.FloatingActionButton
         android:id="@+id/share_fab"
         android:layout_width="56dp"
         android:layout_height="56dp"
@@ -111,6 +111,7 @@
         android:contentDescription="@string/action_share"
         android:elevation="@dimen/fab_elevation"
         android:src="@drawable/ic_share"
-        android:stateListAnimator="@animator/fab_state_list_anim" />
+        android:stateListAnimator="@animator/fab_state_list_anim"
+        tools:targetApi="lollipop" />
 
 </android.support.design.widget.CoordinatorLayout>
